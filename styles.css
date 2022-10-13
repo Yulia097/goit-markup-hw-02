@@ -1,0 +1,90 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+}
+
+.links-gray {
+  color: #757575;
+}
+
+.links :hover,
+.links :focus,
+.links-current,
+.studio-white :hover,
+.studio-white :focus,
+.studio-black:hover,
+.studio-black:focus :focus {
+  color: var(--accent-color);
+}
+
+.texst-list {
+  color: #757575;
+}
+.logo {
+  color: var(--accent-color);
+}
+.section {
+  color: var(--primary-white-color);
+}
+.studio-white {
+  color: var(--primary-white-color);
+}
+.studio-black {
+  color: var(--title-text-color);
+}
+.footer-links {
+  color: rgba (255, 255, 255, 0.6);
+}
+
+.adress {
+  color: var(--primary-white-color);
+}
+.button {
+  background-color: var(--accent-color);
+  color: var(--title-text-color);
+}
+.button-current {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  color: var(--primary-white-color);
+}
+
+.section-title {
+  color: var(--primary-white-color);
+}
+.section-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.current-link {
+  color: var(--accent-color);
+}
+
+Для porfolio .title {
+  color: var(--title-text-color);
+}
