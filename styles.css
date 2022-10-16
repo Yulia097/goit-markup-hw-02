@@ -66,7 +66,7 @@ body {
 .studio-black {
   color: var(--title-text-color);
 }
-.footer .footer-links {
+.footer-links {
   color: rgba (255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -163,4 +163,7 @@ h3 {
 
   font-size: 16px;
   line-height: 1.8;
+}
+.current-link:visited {
+  text-decoration: none;
 }
