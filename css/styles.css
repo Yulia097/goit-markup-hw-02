@@ -12,6 +12,8 @@ body {
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-background-color: #2f303a;
+  --paragraph-color: #757575;
+  --portfolio-butto-color: rgba(255, 255, 255, 0.6);
 }
 .email,
 .phone {
@@ -29,7 +31,7 @@ body {
 }
 .phone,
 .email {
-  color: #757575;
+  color: var(--paragraph-color);
 }
 .links:hover,
 .pages:focus,
@@ -40,7 +42,7 @@ body {
 }
 
 .texst-list {
-  color: #757575;
+  color: var(--paragraph-color);
 }
 .logo {
   color: var(--accent-color);
@@ -66,28 +68,23 @@ body {
 .studio-black {
   color: var(--title-text-color);
 }
-.footer-links {
-  color: rgba (255, 255, 255, 0.6);
-  text-decoration: none;
-}
+
 .adress {
   color: var(--primary-white-color);
   text-decoration: none;
 }
-button {
-  background-color: var(--accent-color);
-  color: var(--title-text-color);
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--portfolio-button-color);
   cursor: pointer;
 }
 li {
   list-style-type: none;
 }
-a:active {
+.button:hover,
+.button:focus {
   color: var(--primary-white-color);
-}
-button:hover,
-button:focus {
-  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .current-button {
   background-color: var(--accent-color);
@@ -108,8 +105,7 @@ button:focus {
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
-  align-items: center;
-  text-align: center;
+  cursor: pointer;
 }
 .current-link {
   color: var(--accent-color);
@@ -139,31 +135,37 @@ button:focus {
   font-size: 14px;
   line-height: 1.14;
 }
-h3 {
-  font-weight: 500;
-  font-size: 16px;
-}
 .third-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
 }
 .text-proffesion {
-  color: #757575;
+  color: var(--paragraph-color);
   font-size: 16px;
   line-height: 1.1;
 }
-.adress,
 .footer-links {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
 }
-.text-list {
-  color: #757575;
 
+.adress {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.text-list {
+  color: var(--paragraph-color);
   font-size: 16px;
   line-height: 1.8;
 }
 .current-link:visited {
   text-decoration: none;
+}
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
 }
