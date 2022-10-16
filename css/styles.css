@@ -13,7 +13,6 @@ body {
   --primary-white-color: #ffffff;
   --secondary-background-color: #2f303a;
   --paragraph-color: #757575;
-  --portfolio-butto-color: rgba(255, 255, 255, 0.6);
 }
 .email,
 .phone {
@@ -52,15 +51,16 @@ body {
   line-height: 1.11;
   text-decoration: none;
 }
-.sitenav-links .pages,
-.pages .current-link {
+.sitenav-links .pages {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.section {
-  color: var(--primary-white-color);
+.pages:hover,
+.pages:focus {
+  color: var(--accent-color);
 }
 .studio-white {
   color: var(--primary-white-color);
@@ -109,6 +109,10 @@ li {
 }
 .current-link {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .title {
   color: var(--title-text-color);
@@ -151,12 +155,14 @@ li {
   font-size: 14px;
   line-height: 1.7;
 }
-
 .adress {
   font-size: 14px;
   line-height: 1.7;
 }
-
+.footer-links:hover,
+.footer-links:focus {
+  color: var(--accent-color);
+}
 .text-list {
   color: var(--paragraph-color);
   font-size: 16px;
